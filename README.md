@@ -1,3 +1,7 @@
+# EmBrito.Dataverse.Extensions.Messaging
+
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/emerbrito/dataverse-client-messaging/dotnet-build.yml)
+
 # Message Dispatcher
 
 The `MessageDispatcher<TMessage>` dispatches a message to one or more handlers based on a message filter. The main purpose of the dispatcher is to abstract message handling.
