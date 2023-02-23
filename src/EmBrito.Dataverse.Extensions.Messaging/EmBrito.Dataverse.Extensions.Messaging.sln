@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmBrito.Dataverse.Extensions.Messaging", "EmBrito.Dataverse.Extensions.Messaging.csproj", "{8322B906-623F-42A5-88D9-9591DCB607CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmBrito.Dataverse.Extensions.Tests.Messaging", "..\EmBrito.Dataverse.Extensions.Tests.Messaging\EmBrito.Dataverse.Extensions.Tests.Messaging.csproj", "{37C8BDC1-2949-426A-B854-824E817DE147}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8322B906-623F-42A5-88D9-9591DCB607CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8322B906-623F-42A5-88D9-9591DCB607CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8322B906-623F-42A5-88D9-9591DCB607CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8322B906-623F-42A5-88D9-9591DCB607CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C8BDC1-2949-426A-B854-824E817DE147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C8BDC1-2949-426A-B854-824E817DE147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C8BDC1-2949-426A-B854-824E817DE147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C8BDC1-2949-426A-B854-824E817DE147}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C4B9AF7-9BBF-4025-89CB-4F90D97A1315}
+	EndGlobalSection
+EndGlobal
