@@ -1,6 +1,7 @@
 # EmBrito.Dataverse.Extensions.Messaging
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/emerbrito/dataverse-client-messaging/dotnet-build.yml)
+[![Nuget](https://img.shields.io/nuget/v/EmBrito.Dataverse.Extensions.Messaging)](https://www.nuget.org/packages/EmBrito.Dataverse.Extensions.Messaging)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/emerbrito/dataverse-client-messaging/dotnet-build.yml)](https://github.com/emerbrito/dataverse-extensions-data/actions/workflows/dotnet-build.yml)
 
 # Message Dispatcher
 
