@@ -21,11 +21,11 @@ flowchart TB
 
 Start by creating a dispatcher, which could be by instantiating the generic `MessageDispatcher<TMessage>` or extending it. Then create message handlers to handle the messages. 
 
-Let your DI container take care of the the dispatcher and handlers initialization (see the Dependency Injection section for details).
+You can also let your DI container take care of the the dispatcher and handlers initialization (see the Dependency Injection section for details).
 
 ### Creating a dispatcher
 
-Using the generic dispatcher to push string messages down to one or more handlers:
+A generic dispatcher to push string messages down to one or more handlers:
 
 ``` csharp
 public class HandleServiceBusFunction
@@ -39,7 +39,7 @@ public class HandleServiceBusFunction
 }
 ```
 
-Extending the `MessageDispatcher<string>`. This example will provide the exact same functionality as the previous but will result in code that is more readable and easier to understand for some:
+This example will provide the exact same functionality as the previous but will result in code that is more readable and easier to understand, by extending the `MessageDispatcher<string>` and creating an specialized class:
 
 ``` csharp
 public class StringMessageDispatcher : MessageDispatcher<string>
@@ -64,7 +64,7 @@ public class HandleServiceBusFunction
 
 ### Creating Message Handlers
 
-Implement the `IMessageHandler<TMessage>` to create a message handler. See the Dependency Injection section to understand how handlers are associated with dispatchers.
+Implement the `IMessageHandler<TMessage>` to create a message handler. See the Dependency Injection section to understand how handlers are registered with dispatchers.
 
 ``` csharp
 public class MyContactHandler : IMessageHandler<string>
